@@ -6,7 +6,8 @@ Contact: archigamesads@gmail.com.
 Revision: 1 November 2026. Five complete editions: English, Ukrainian, Russian,
 Polish and German. Covers points-based leaderboards, daily attempts, hint stock,
 Google Play Games cloud saves/achievements, test banners and rewarded ads,
-review requests, automatic localization, retention/deletion and privacy rights.
+review requests, automatic localization, Google Play flexible in-app updates,
+retention/deletion and privacy rights.
 Firebase and live ads are not enabled in the described version.
 
 policy-<language>.txt files are the shared source for the website and app.
