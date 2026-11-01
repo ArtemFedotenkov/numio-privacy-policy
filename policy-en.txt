@@ -1,42 +1,43 @@
 NUMIO Privacy Policy
-Effective date: 29 October 2026
+Effective date: 1 November 2026
 Developer / publisher: FEDOT
 Contact: archigamesads@gmail.com
 Application: NUMIO (fedot.numio.game)
 
-1. About this policy
-NUMIO is a number puzzle for players aged 13 and older. Core gameplay works offline. Optional online features use Google Play Games and Google AdMob. This policy describes the current version, which requests Google test banner ads; live advertising and purchases are not enabled. FEDOT does not operate its own game-account, analytics, advertising or cloud-save server.
+1. Scope and developer
+NUMIO is a number puzzle intended for players aged 13 and older. Core gameplay works offline. Optional online features use Google Play Games and Google AdMob. FEDOT is responsible for NUMIO; Google processes service data under its own terms and privacy policies. FEDOT does not operate a separate game-account, analytics or cloud-save server. Firebase analytics, crash reporting, push notifications and remote configuration are not integrated in this version. In-app purchases and live advertising are not enabled; the game requests Google test banner and rewarded ads.
 
-2. Data stored on your device
-NUMIO stores the current level, completed-level count, generation seed and version, initial board, remaining tiles, tasks, move history and save timestamps to resume progress and restart the same puzzle. Audio settings and a flag recording whether the game has requested a review are also stored locally. These files are in the application's private storage. Android application backup is disabled.
+2. Data on your device and language
+NUMIO stores the ordinary level sequence, generation seed and version, initial and remaining board, tasks, move history, points, hint stock and save timestamps. Daily-challenge data includes the UTC date, seed, board, attempt status and result, and whether the result has been acknowledged. These records let you resume the same puzzle, preserve a single daily attempt, restore the ordinary board and avoid awarding the same reward twice. Audio preferences and a flag recording whether the game has requested a review are also stored locally in the application's private storage. Android application backup is disabled.
+The system language is used locally to choose bundled English, Ukrainian, Russian, Polish or German game and policy text; unsupported languages use English. This requires no online translation service. Device time in UTC is used for daily challenges and save timestamps; it is not GPS location.
 
-3. Google Play Games, leaderboard and achievements
-Google Play Games may sign in automatically according to your Google and Play Games settings. Google processes account authentication, player identifiers, game profile information and gaming activity to provide these services. NUMIO uses the signed-in game profile to synchronize progress, submit leaderboard scores, unlock achievements and display Google's leaderboard and achievements screens.
-The leaderboard score is the highest reached level number in the current progression; separate runs are not added together. Achievement unlock requests correspond to 1, 50, 100, 500, 1,000 and 10,000 completed levels within one progression. Google retains earned achievements and the highest submitted score independently of local resets. Your gamer name, profile image, scores and achievements may be visible to other people according to Google's service and profile settings. Offline gameplay remains available without sign-in.
+3. Google Play Games, points and achievements
+Google Play Games may sign in automatically according to your Google and Play Games settings. Google processes authentication, player identifiers, game profile information and gaming activity to provide sign-in, saved games, leaderboards and achievements. NUMIO submits the current progression's absolute point total: one point for an ordinary victory and five for a daily-challenge victory. Separate progressions are not added together. Google retains the highest submitted score; an older version's level-number record is not automatically reduced when scoring changes to points.
+Achievement requests correspond to 1, 50, 100, 500, 1,000 and 10,000 ordinary levels completed in one progression. Google retains earned achievements and records independently of local resets. Your gamer name, profile image, scores and achievements may be visible to others according to Google's settings. Offline gameplay remains available without sign-in.
 
 4. Cloud saves
-When signed in, NUMIO uses Google Play Games Saved Games to upload and retrieve your game state: level and completed count, generation seed/version, initial board, remaining tiles, tasks, move history and save timestamps. This supports continued play and recovery across devices. The save is stored in the private application-data area associated with your Google account. NUMIO does not request access to your other Google Drive files and does not publish your saved board to other players.
-If local and cloud saves differ, NUMIO presents a choice of which progress to continue. Network or cloud errors do not prevent offline play. Cloud synchronization occurs automatically while the service is connected, including after progress changes and when the app is paused.
+When connected, NUMIO uses Google Play Games Saved Games to upload and retrieve the game state described in section 2, including points, hints and daily-challenge progress, to continue play and recover progress across devices. Data is stored in the private application-data area associated with your Google account. NUMIO does not request access to your other Google Drive files or publish your saved board to other players.
+Synchronization occurs automatically while connected, including after progress changes and when the app is paused. If device and cloud saves differ, the game asks which to use; it does not add their points or hints together. Network errors do not prevent offline play. Changes to or deletion of local data do not necessarily change Google's saved data.
 
-5. Advertising and Google services
-The current build uses Google AdMob test banners. Test mode does not mean that no data is processed by Google's SDKs. The Google Mobile Ads SDK may collect and share IP addresses (which can indicate approximate location), device/account or advertising identifiers, ad and application interactions, and diagnostic information such as crashes and performance data. Google uses this information for advertising delivery, measurement, analytics, security and fraud prevention. NUMIO does not request GPS/location permission and has no separate developer-operated analytics service.
-Applicable advertising choices depend on Google, your device, region and the configured advertising service. The game's Ad privacy entry appears when Google's configured consent service requires a privacy-options entry. Live advertising remains disabled in this version; this policy and the Google Play disclosures will be reviewed before live ads are enabled.
-NUMIO may request a Google Play review once after you complete level 15. Google controls whether the review form appears and processes any rating or review. The game is not told whether you submitted a rating.
+5. Test advertising and reviews
+The current build requests Google AdMob test banners and rewarded ads. The player requests a rewarded ad when the hint stock is empty. The stock is refilled to five only when the SDK confirms the earned reward. Test mode does not mean that Google's SDKs process no data. The Google Mobile Ads SDK may collect and share IP addresses, advertising or device/account identifiers, ad/app interactions and diagnostics such as crashes and performance data for advertising, measurement and analytics, security and fraud prevention. IP addresses may indicate approximate location. NUMIO does not request GPS/location permission and has no separate developer analytics service.
+Advertising choices depend on Google, device, region and configuration. Use the game's Ad privacy entry if Google's configured consent service makes it available. Before live advertising is enabled, this policy, consent configuration and Google Play disclosures will be reviewed.
+NUMIO may request a Google Play review once after 15 ordinary victories. Google decides whether to show the form and processes any rating or review; the game is not told whether you submitted one.
 Google privacy policy: https://policies.google.com/privacy
 Google advertising information: https://policies.google.com/technologies/ads
 Google Mobile Ads SDK data disclosure: https://developers.google.com/admob/android/privacy/play-data-disclosure
 
-6. Retention, deletion and your choices
-Local game data is retained until replaced by continued play, cleared through Android app settings, or removed when you uninstall the app. Clearing storage or uninstalling does not necessarily delete Google cloud saves, leaderboard records or achievements. Use your Google Play Games / Google account settings to manage sign-in, profile visibility, connected access and game data. Google's retention and deletion rules apply to data processed by Google. If you continue playing while signed in after deleting Google game data, new progress may be uploaded again.
-Google instructions for deleting Play Games data: https://support.google.com/googleplay/answer/9130646
-NUMIO does not create a separate FEDOT user account. FEDOT cannot directly delete data inside your Google account. For privacy questions or help with a request, contact archigamesads@gmail.com.
+6. Retention, deletion and your rights
+Local records remain until replaced by continued play, cleared in Android app settings or removed on uninstall. Clearing storage or uninstalling does not necessarily delete Google cloud saves, leaderboard scores or achievements. Manage sign-in, connected access, profile visibility and game data in Google / Play Games settings. Google's retention and deletion rules apply to its processing. Playing while signed in after deleting Google game data may upload progress again.
+Google instructions: https://support.google.com/googleplay/answer/9130646
+NUMIO does not create a separate FEDOT account. FEDOT cannot directly delete data inside your Google account. Contact archigamesads@gmail.com for privacy requests. Where applicable, you may request access, correction, deletion or restriction, object to processing, withdraw consent for future consent-based processing, and complain to a supervisory authority. Handling depends on applicable law and which provider holds the data. Google's own processing is described in its policies.
 
-7. Support messages and the policy website
-If you email FEDOT, your email address and message are used to handle your request. Email providers also process correspondence under their own policies. FEDOT retains correspondence only as needed to handle the request and applicable obligations. You can request deletion of this correspondence at archigamesads@gmail.com.
-The public policy website is hosted on GitHub Pages. Visiting it may cause GitHub to process technical request information, including your IP address, under GitHub's privacy statement. The policy pages contain no advertising or added analytics scripts. The policy displayed inside NUMIO is bundled with the app and can be read offline.
+7. Support and the policy website
+If you email FEDOT, your email address and message are used to answer your request and retained only as needed for that purpose and applicable obligations. Email providers also process correspondence under their policies. You may request deletion of this correspondence at archigamesads@gmail.com.
+The public policy website is hosted on GitHub Pages. GitHub may process technical request information, including your IP address. The pages contain no advertising or added analytics scripts and offer buttons for all five languages. The in-game policy is bundled, readable offline and automatically follows the game language without a language selector.
 GitHub privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
-8. Other information and updates
-NUMIO has no chat or user-uploaded content and does not request access to contacts, camera, microphone or precise location. Data processed by Google or email/hosting providers is handled under their policies, including any applicable international processing. This policy will be updated when relevant features or data practices change; the effective date above identifies the current revision. The latest public version is available at https://artemfedotenkov.github.io/numio-privacy-policy/ .
+8. Other information and changes
+NUMIO has no chat or user-uploaded content and does not request contacts, camera, microphone or precise-location access. It is not directed at children under 13; contact us if you believe a child's personal data has been processed inappropriately. Providers may process data internationally under their policies and applicable safeguards. This policy will be revised when relevant features or practices change. The date above identifies this revision. Public version: https://artemfedotenkov.github.io/numio-privacy-policy/
 
 Privacy contact: FEDOT — archigamesads@gmail.com.

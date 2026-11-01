@@ -1,18 +1,20 @@
 # NUMIO privacy policy
 
-Public privacy policy for NUMIO (`fedot.numio.game`), published by FEDOT.
+Public policy for NUMIO (fedot.numio.game), published by FEDOT.
+Contact: archigamesads@gmail.com.
 
-Languages: English, Russian, Ukrainian. Contact: archigamesads@gmail.com.
+Revision: 1 November 2026. Five complete editions: English, Ukrainian, Russian,
+Polish and German. Covers points-based leaderboards, daily attempts, hint stock,
+Google Play Games cloud saves/achievements, test banners and rewarded ads,
+review requests, automatic localization, retention/deletion and privacy rights.
+Firebase and live ads are not enabled in the described version.
 
-Hosted using GitHub Pages. Only policy pages are stored in this repository.
+policy-<language>.txt files are the shared source for the website and app.
+Build: python build_policy.py
+Sync app: python build_policy.py --game-project PATH_TO_GODOT_PROJECT
+The website keeps five language buttons; the app follows its language automatically.
+Plain-text files in the app exactly match the corresponding website source.
+Licenses are shown in their separate in-game panel, not appended to policy text.
 
-Current revision: 29 October 2026. Covers Google Play Games sign-in, cloud saves,
-leaderboard, achievements, test AdMob banners, the review request, retention and deletion.
-
-The plain-text `policy-en.txt`, `policy-ru.txt` and `policy-uk.txt` files are the
-shared source for both the website and the in-game policy. Build public pages with
-`python build_policy.py`. To also update a local Godot checkout, use
-`python build_policy.py --game-project PATH_TO_GODOT_PROJECT`.
-
-Live advertising is not enabled in the described build. Reassess the policy and
-Google Play data disclosures before enabling live ads or changing data practices.
+Before enabling live advertising or new services, review the policy and Google Play
+Data safety/consent settings again. No app binaries or private credentials belong here.
